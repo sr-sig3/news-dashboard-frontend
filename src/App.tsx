@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import WordCloud from './components/WordCloud.tsx';
+import WordCloud from './components/WordCloud';
 
 function App() {
   return (
