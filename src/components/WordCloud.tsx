@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import cloud from 'd3-cloud';
 import * as d3 from 'd3';
-import { getKeywords, KeywordData } from '../services/keywordService';
+import { getKeywords, KeywordData } from '../services/keywordService.ts';
 
 interface Word {
   text: string;
